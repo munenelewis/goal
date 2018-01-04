@@ -4,7 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
+
 })
 export class AppComponent {
-  title = 'app';
+  goals: string[];
+  constructor(){
+
+    this.goals = ["watch finding nemo", "buy cookies", "get new phone case"];
+
+    
+  };
 }
